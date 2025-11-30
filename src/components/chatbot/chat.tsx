@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styles from './ChatbotUI.module.css'; // Import the new CSS file
 
-const API_BASE_URL = 'https://book-chatbot-qom8.onrender.com/';
+const API_BASE_URL = 'https://ai-robot-book.vercel.app/';
 
 export default function ChatbotUI() {
   const [messages, setMessages] = useState([]);
